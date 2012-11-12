@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53FFEF3D13E9DBCF00351F1B /* NBInfiniteScrollerViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53FFEF3913E9DBCF00351F1B /* NBInfiniteScrollerViewController_iPad.xib */; };
+		53FFEF3E13E9DBCF00351F1B /* NBInfiniteScrollerViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53FFEF3B13E9DBCF00351F1B /* NBInfiniteScrollerViewController_iPhone.xib */; };
+		53FFEF4713E9DC3400351F1B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 53FFEF4013E9DC3400351F1B /* Icon-72.png */; };
+		53FFEF4813E9DC3400351F1B /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 53FFEF4113E9DC3400351F1B /* Icon-Small-50.png */; };
+		53FFEF4913E9DC3400351F1B /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 53FFEF4213E9DC3400351F1B /* Icon-Small.png */; };
+		53FFEF4A13E9DC3400351F1B /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53FFEF4313E9DC3400351F1B /* Icon-Small@2x.png */; };
+		53FFEF4B13E9DC3400351F1B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 53FFEF4413E9DC3400351F1B /* Icon.png */; };
+		53FFEF4C13E9DC3400351F1B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53FFEF4513E9DC3400351F1B /* Icon@2x.png */; };
+		53FFEF4D13E9DC3400351F1B /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 53FFEF4613E9DC3400351F1B /* iTunesArtwork */; };
+		C9D460F4139C01D400D8C470 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D460F3139C01D400D8C470 /* UIKit.framework */; };
+		C9D460F6139C01D400D8C470 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D460F5139C01D400D8C470 /* Foundation.framework */; };
+		C9D460F8139C01D400D8C470 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D460F7139C01D400D8C470 /* CoreGraphics.framework */; };
+		C9D460FE139C01D400D8C470 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9D460FC139C01D400D8C470 /* InfoPlist.strings */; };
+		C9D46100139C01D400D8C470 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D460FF139C01D400D8C470 /* main.m */; };
+		C9D46104139C01D400D8C470 /* NBInfiniteScrollerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D46103139C01D400D8C470 /* NBInfiniteScrollerAppDelegate.m */; };
+		C9D46106139C01D400D8C470 /* NBInfiniteScrollerViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = C9D46105139C01D400D8C470 /* NBInfiniteScrollerViewController.h */; };
+		C9D46108139C01D400D8C470 /* NBInfiniteScrollerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D46107139C01D400D8C470 /* NBInfiniteScrollerViewController.m */; };
+		CC36C52816519EBE00A823C9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CC36C52716519EBE00A823C9 /* README.md */; };
+		CCA7A6991651274700C085CE /* NBInfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA7A6981651274700C085CE /* NBInfiniteScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53FFEF3A13E9DBCF00351F1B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NBInfiniteScrollerViewController_iPad.xib; sourceTree = "<group>"; };
+		53FFEF3C13E9DBCF00351F1B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NBInfiniteScrollerViewController_iPhone.xib; sourceTree = "<group>"; };
+		53FFEF4013E9DC3400351F1B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		53FFEF4113E9DC3400351F1B /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		53FFEF4213E9DC3400351F1B /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		53FFEF4313E9DC3400351F1B /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		53FFEF4413E9DC3400351F1B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		53FFEF4513E9DC3400351F1B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		53FFEF4613E9DC3400351F1B /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = text; path = iTunesArtwork; sourceTree = "<group>"; };
+		C9D460EF139C01D400D8C470 /* NBInfiniteScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBInfiniteScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D460F3139C01D400D8C470 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9D460F5139C01D400D8C470 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9D460F7139C01D400D8C470 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9D460FB139C01D400D8C470 /* NBInfiniteScroller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NBInfiniteScroller-Info.plist"; sourceTree = "<group>"; };
+		C9D460FD139C01D400D8C470 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9D460FF139C01D400D8C470 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9D46101139C01D400D8C470 /* NBInfiniteScroller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NBInfiniteScroller-Prefix.pch"; sourceTree = "<group>"; };
+		C9D46102139C01D400D8C470 /* NBInfiniteScrollerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBInfiniteScrollerAppDelegate.h; sourceTree = "<group>"; };
+		C9D46103139C01D400D8C470 /* NBInfiniteScrollerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBInfiniteScrollerAppDelegate.m; sourceTree = "<group>"; };
+		C9D46105139C01D400D8C470 /* NBInfiniteScrollerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBInfiniteScrollerViewController.h; sourceTree = "<group>"; };
+		C9D46107139C01D400D8C470 /* NBInfiniteScrollerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBInfiniteScrollerViewController.m; sourceTree = "<group>"; };
+		CC36C52716519EBE00A823C9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		CCA7A6971651274700C085CE /* NBInfiniteScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBInfiniteScrollView.h; sourceTree = "<group>"; };
+		CCA7A6981651274700C085CE /* NBInfiniteScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBInfiniteScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9D460EC139C01D400D8C470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D460F4139C01D400D8C470 /* UIKit.framework in Frameworks */,
+				C9D460F6139C01D400D8C470 /* Foundation.framework in Frameworks */,
+				C9D460F8139C01D400D8C470 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53FFEF3F13E9DC3400351F1B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				53FFEF4013E9DC3400351F1B /* Icon-72.png */,
+				53FFEF4113E9DC3400351F1B /* Icon-Small-50.png */,
+				53FFEF4213E9DC3400351F1B /* Icon-Small.png */,
+				53FFEF4313E9DC3400351F1B /* Icon-Small@2x.png */,
+				53FFEF4413E9DC3400351F1B /* Icon.png */,
+				53FFEF4513E9DC3400351F1B /* Icon@2x.png */,
+				53FFEF4613E9DC3400351F1B /* iTunesArtwork */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		C9D460E4139C01D400D8C470 = {
+			isa = PBXGroup;
+			children = (
+				CC36C52716519EBE00A823C9 /* README.md */,
+				C9D460F9139C01D400D8C470 /* NBInfiniteScroller */,
+				C9D460F2139C01D400D8C470 /* Frameworks */,
+				C9D460F0139C01D400D8C470 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9D460F0139C01D400D8C470 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9D460EF139C01D400D8C470 /* NBInfiniteScroller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9D460F2139C01D400D8C470 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9D460F3139C01D400D8C470 /* UIKit.framework */,
+				C9D460F5139C01D400D8C470 /* Foundation.framework */,
+				C9D460F7139C01D400D8C470 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9D460F9139C01D400D8C470 /* NBInfiniteScroller */ = {
+			isa = PBXGroup;
+			children = (
+				C9D46102139C01D400D8C470 /* NBInfiniteScrollerAppDelegate.h */,
+				C9D46103139C01D400D8C470 /* NBInfiniteScrollerAppDelegate.m */,
+				C9D46105139C01D400D8C470 /* NBInfiniteScrollerViewController.h */,
+				C9D46107139C01D400D8C470 /* NBInfiniteScrollerViewController.m */,
+				CCA7A6971651274700C085CE /* NBInfiniteScrollView.h */,
+				CCA7A6981651274700C085CE /* NBInfiniteScrollView.m */,
+				53FFEF3F13E9DC3400351F1B /* images */,
+				C9D460FA139C01D400D8C470 /* Supporting Files */,
+			);
+			path = NBInfiniteScroller;
+			sourceTree = "<group>";
+		};
+		C9D460FA139C01D400D8C470 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9D46101139C01D400D8C470 /* NBInfiniteScroller-Prefix.pch */,
+				C9D460FF139C01D400D8C470 /* main.m */,
+				C9D460FB139C01D400D8C470 /* NBInfiniteScroller-Info.plist */,
+				C9D460FC139C01D400D8C470 /* InfoPlist.strings */,
+				53FFEF3913E9DBCF00351F1B /* NBInfiniteScrollerViewController_iPad.xib */,
+				53FFEF3B13E9DBCF00351F1B /* NBInfiniteScrollerViewController_iPhone.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9D460EE139C01D400D8C470 /* NBInfiniteScroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9D46111139C01D400D8C470 /* Build configuration list for PBXNativeTarget "NBInfiniteScroller" */;
+			buildPhases = (
+				C9D460EB139C01D400D8C470 /* Sources */,
+				C9D460EC139C01D400D8C470 /* Frameworks */,
+				C9D460ED139C01D400D8C470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NBInfiniteScroller;
+			productName = NBInfiniteScroller;
+			productReference = C9D460EF139C01D400D8C470 /* NBInfiniteScroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9D460E6139C01D400D8C470 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Apple;
+			};
+			buildConfigurationList = C9D460E9139C01D400D8C470 /* Build configuration list for PBXProject "NBInfiniteScroller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9D460E4139C01D400D8C470;
+			productRefGroup = C9D460F0139C01D400D8C470 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9D460EE139C01D400D8C470 /* NBInfiniteScroller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9D460ED139C01D400D8C470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D460FE139C01D400D8C470 /* InfoPlist.strings in Resources */,
+				C9D46106139C01D400D8C470 /* NBInfiniteScrollerViewController.h in Resources */,
+				53FFEF3D13E9DBCF00351F1B /* NBInfiniteScrollerViewController_iPad.xib in Resources */,
+				53FFEF3E13E9DBCF00351F1B /* NBInfiniteScrollerViewController_iPhone.xib in Resources */,
+				53FFEF4713E9DC3400351F1B /* Icon-72.png in Resources */,
+				53FFEF4813E9DC3400351F1B /* Icon-Small-50.png in Resources */,
+				53FFEF4913E9DC3400351F1B /* Icon-Small.png in Resources */,
+				53FFEF4A13E9DC3400351F1B /* Icon-Small@2x.png in Resources */,
+				53FFEF4B13E9DC3400351F1B /* Icon.png in Resources */,
+				53FFEF4C13E9DC3400351F1B /* Icon@2x.png in Resources */,
+				53FFEF4D13E9DC3400351F1B /* iTunesArtwork in Resources */,
+				CC36C52816519EBE00A823C9 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9D460EB139C01D400D8C470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D46100139C01D400D8C470 /* main.m in Sources */,
+				C9D46104139C01D400D8C470 /* NBInfiniteScrollerAppDelegate.m in Sources */,
+				C9D46108139C01D400D8C470 /* NBInfiniteScrollerViewController.m in Sources */,
+				CCA7A6991651274700C085CE /* NBInfiniteScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53FFEF3913E9DBCF00351F1B /* NBInfiniteScrollerViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53FFEF3A13E9DBCF00351F1B /* en */,
+			);
+			name = NBInfiniteScrollerViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		53FFEF3B13E9DBCF00351F1B /* NBInfiniteScrollerViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53FFEF3C13E9DBCF00351F1B /* en */,
+			);
+			name = NBInfiniteScrollerViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		C9D460FC139C01D400D8C470 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9D460FD139C01D400D8C470 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9D4610F139C01D400D8C470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9D46110139C01D400D8C470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9D46112139C01D400D8C470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NBInfiniteScroller/NBInfiniteScroller-Prefix.pch";
+				INFOPLIST_FILE = "NBInfiniteScroller/NBInfiniteScroller-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = NBInfiniteScroller;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9D46113139C01D400D8C470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NBInfiniteScroller/NBInfiniteScroller-Prefix.pch";
+				INFOPLIST_FILE = "NBInfiniteScroller/NBInfiniteScroller-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = NBInfiniteScroller;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9D460E9139C01D400D8C470 /* Build configuration list for PBXProject "NBInfiniteScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9D4610F139C01D400D8C470 /* Debug */,
+				C9D46110139C01D400D8C470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9D46111139C01D400D8C470 /* Build configuration list for PBXNativeTarget "NBInfiniteScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9D46112139C01D400D8C470 /* Debug */,
+				C9D46113139C01D400D8C470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9D460E6139C01D400D8C470 /* Project object */;
+}
